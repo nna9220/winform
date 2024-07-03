@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLNSModel7StoreContainer" CdmEntityContainer="SachConnection">
+    <EntitySetMapping Name="SACHes">
+      <EntityTypeMapping TypeName="QLNSModel7.SACH">
+        <MappingFragment StoreEntitySet="SACH">
+          <ScalarProperty Name="MASACH" ColumnName="MASACH" />
+          <ScalarProperty Name="TENSACH" ColumnName="TENSACH" />
+          <ScalarProperty Name="MATG" ColumnName="MATG" />
+          <ScalarProperty Name="TENLINHVUC" ColumnName="TENLINHVUC" />
+          <ScalarProperty Name="TENLOAISACH" ColumnName="TENLOAISACH" />
+          <ScalarProperty Name="GIAMUA" ColumnName="GIAMUA" />
+          <ScalarProperty Name="GIABIA" ColumnName="GIABIA" />
+          <ScalarProperty Name="LANTAIBAN" ColumnName="LANTAIBAN" />
+          <ScalarProperty Name="TENNHAXUATBAN" ColumnName="TENNHAXUATBAN" />
+          <ScalarProperty Name="NAMXUATBAN" ColumnName="NAMXUATBAN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

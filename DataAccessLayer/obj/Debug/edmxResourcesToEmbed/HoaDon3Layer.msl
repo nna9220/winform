@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLNSModel3StoreContainer" CdmEntityContainer="HoaDonConnection">
+    <EntitySetMapping Name="HOADONs">
+      <EntityTypeMapping TypeName="QLNSModel3.HOADON">
+        <MappingFragment StoreEntitySet="HOADON">
+          <ScalarProperty Name="MAHOADON" ColumnName="MAHOADON" />
+          <ScalarProperty Name="TENKHACHHANG" ColumnName="TENKHACHHANG" />
+          <ScalarProperty Name="NGAYLAP" ColumnName="NGAYLAP" />
+          <ScalarProperty Name="TONGTIEN" ColumnName="TONGTIEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

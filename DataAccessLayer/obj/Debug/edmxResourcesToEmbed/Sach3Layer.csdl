@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLNSModel7" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="SACH">
+    <Key>
+      <PropertyRef Name="MASACH" />
+    </Key>
+    <Property Name="MASACH" Type="String" MaxLength="7" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TENSACH" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MATG" Type="String" MaxLength="7" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TENLINHVUC" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="TENLOAISACH" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="GIAMUA" Type="Int32" />
+    <Property Name="GIABIA" Type="Int32" />
+    <Property Name="LANTAIBAN" Type="Int32" />
+    <Property Name="TENNHAXUATBAN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NAMXUATBAN" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="SachConnection" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SACHes" EntityType="Self.SACH" />
+  </EntityContainer>
+</Schema>

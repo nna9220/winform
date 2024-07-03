@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F45D202A-47CA-4FAD-8B19-BD31C465994A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CUOIKY_LTWIN</RootNamespace>
+    <AssemblyName>CUOIKY_LTWIN</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKy.Designer.cs">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChiTietHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChiTietHoaDon.Designer.cs">
+      <DependentUpon>FormChiTietHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHoaDon.Designer.cs">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKho.Designer.cs">
+      <DependentUpon>FormKho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLinhVuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLinhVuc.Designer.cs">
+      <DependentUpon>formLinhVuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNhanVien.Designer.cs">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSach.Designer.cs">
+      <DependentUpon>FormSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSuaNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSuaNhanVien.Designer.cs">
+      <DependentUpon>FormSuaNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSuaSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSuaSach.Designer.cs">
+      <DependentUpon>FormSuaSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTheLoai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTheLoai.Designer.cs">
+      <DependentUpon>FormTheLoai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThemNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThemNhanVien.Designer.cs">
+      <DependentUpon>FormThemNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormThemSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThemSach.Designer.cs">
+      <DependentUpon>FormThemSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListNhaXuatBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListNhaXuatBan.Designer.cs">
+      <DependentUpon>ListNhaXuatBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManHinhChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManHinhChinh.Designer.cs">
+      <DependentUpon>ManHinhChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLNSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLNSDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLNSDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TacGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TacGia.Designer.cs">
+      <DependentUpon>TacGia.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DangKy.resx">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChiTietHoaDon.resx">
+      <DependentUpon>FormChiTietHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHoaDon.resx">
+      <DependentUpon>FormHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKho.resx">
+      <DependentUpon>FormKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLinhVuc.resx">
+      <DependentUpon>formLinhVuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNhanVien.resx">
+      <DependentUpon>FormNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSach.resx">
+      <DependentUpon>FormSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSuaNhanVien.resx">
+      <DependentUpon>FormSuaNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSuaSach.resx">
+      <DependentUpon>FormSuaSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTheLoai.resx">
+      <DependentUpon>FormTheLoai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThemNhanVien.resx">
+      <DependentUpon>FormThemNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThemSach.resx">
+      <DependentUpon>FormThemSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListNhaXuatBan.resx">
+      <DependentUpon>ListNhaXuatBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManHinhChinh.resx">
+      <DependentUpon>ManHinhChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TacGia.resx">
+      <DependentUpon>TacGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QLNSDataSet.xsc">
+      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet.xss">
+      <DependentUpon>QLNSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet1.xsc">
+      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet1.xss">
+      <DependentUpon>QLNSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet10.xsc">
+      <DependentUpon>QLNSDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet10.xss">
+      <DependentUpon>QLNSDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet11.xsc">
+      <DependentUpon>QLNSDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet11.xss">
+      <DependentUpon>QLNSDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet12.xsc">
+      <DependentUpon>QLNSDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet12.xss">
+      <DependentUpon>QLNSDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet13.xsc">
+      <DependentUpon>QLNSDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet13.xss">
+      <DependentUpon>QLNSDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet14.xsc">
+      <DependentUpon>QLNSDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet14.xss">
+      <DependentUpon>QLNSDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet2.xsc">
+      <DependentUpon>QLNSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet2.xss">
+      <DependentUpon>QLNSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet3.xsc">
+      <DependentUpon>QLNSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet3.xss">
+      <DependentUpon>QLNSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet4.xsc">
+      <DependentUpon>QLNSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet4.xss">
+      <DependentUpon>QLNSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet5.xsc">
+      <DependentUpon>QLNSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet5.xss">
+      <DependentUpon>QLNSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet6.xsc">
+      <DependentUpon>QLNSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet6.xss">
+      <DependentUpon>QLNSDataSet6.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogicLayer\BusinessLogicLayer.csproj">
+      <Project>{6df6f1cb-497b-4a29-a510-38b45415c899}</Project>
+      <Name>BusinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{4ffd1966-efa7-4505-a363-99a28cfcf3bc}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLNSDataSet7.xsc">
+      <DependentUpon>QLNSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet7.xss">
+      <DependentUpon>QLNSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet8.xsc">
+      <DependentUpon>QLNSDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet8.xss">
+      <DependentUpon>QLNSDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet9.xsc">
+      <DependentUpon>QLNSDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="QLNSDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLNSDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLNSDataSet9.xss">
+      <DependentUpon>QLNSDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\themsach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\themsach1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

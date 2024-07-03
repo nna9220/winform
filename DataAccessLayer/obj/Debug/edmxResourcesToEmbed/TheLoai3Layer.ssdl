@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLNSModel6.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="LOAISACH">
+    <Key>
+      <PropertyRef Name="IDSACH" />
+    </Key>
+    <Property Name="TENLOAISACH" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="IDSACH" Type="char" MaxLength="7" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="QLNSModel6StoreContainer">
+    <EntitySet Name="LOAISACH" EntityType="Self.LOAISACH" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

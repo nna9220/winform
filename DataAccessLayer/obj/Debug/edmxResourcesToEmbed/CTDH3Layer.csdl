@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLNSModel10" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CHITIETHOADON1">
+    <Key>
+      <PropertyRef Name="MACHITIET" />
+    </Key>
+    <Property Name="MACHITIET" Type="String" MaxLength="7" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="MAHOADON" Type="String" MaxLength="7" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="MASACH" Type="String" MaxLength="7" FixedLength="true" Unicode="false" />
+    <Property Name="SOLUONG" Type="Int32" />
+    <Property Name="GIATIEN" Type="Int32" />
+    <Property Name="THANHTIEN" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="CTDHConnection" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CHITIETHOADON1" EntityType="Self.CHITIETHOADON1" />
+  </EntityContainer>
+</Schema>

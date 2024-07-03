@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLNSModel5StoreContainer" CdmEntityContainer="TacGiaConnection">
+    <EntitySetMapping Name="TACGIAs">
+      <EntityTypeMapping TypeName="QLNSModel5.TACGIA">
+        <MappingFragment StoreEntitySet="TACGIA">
+          <ScalarProperty Name="MATG" ColumnName="MATG" />
+          <ScalarProperty Name="TENTG" ColumnName="TENTG" />
+          <ScalarProperty Name="NAMSINH" ColumnName="NAMSINH" />
+          <ScalarProperty Name="NAMMAT" ColumnName="NAMMAT" />
+          <ScalarProperty Name="QUEQUAN" ColumnName="QUEQUAN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="QLNSModel7.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="SACH">
+          <Key>
+            <PropertyRef Name="MASACH" />
+          </Key>
+          <Property Name="MASACH" Type="char" MaxLength="7" Nullable="false" />
+          <Property Name="TENSACH" Type="nvarchar" MaxLength="100" />
+          <Property Name="MATG" Type="char" MaxLength="7" Nullable="false" />
+          <Property Name="TENLINHVUC" Type="nvarchar" MaxLength="30" />
+          <Property Name="TENLOAISACH" Type="nvarchar" MaxLength="30" />
+          <Property Name="GIAMUA" Type="int" />
+          <Property Name="GIABIA" Type="int" />
+          <Property Name="LANTAIBAN" Type="int" />
+          <Property Name="TENNHAXUATBAN" Type="nvarchar" MaxLength="50" />
+          <Property Name="NAMXUATBAN" Type="datetime" />
+        </EntityType>
+        <EntityContainer Name="QLNSModel7StoreContainer">
+          <EntitySet Name="SACH" EntityType="Self.SACH" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QLNSModel7" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="SACH">
+          <Key>
+            <PropertyRef Name="MASACH" />
+          </Key>
+          <Property Name="MASACH" Type="String" MaxLength="7" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="TENSACH" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="MATG" Type="String" MaxLength="7" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="TENLINHVUC" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="TENLOAISACH" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="GIAMUA" Type="Int32" />
+          <Property Name="GIABIA" Type="Int32" />
+          <Property Name="LANTAIBAN" Type="Int32" />
+          <Property Name="TENNHAXUATBAN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NAMXUATBAN" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="SachConnection" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="SACHes" EntityType="Self.SACH" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QLNSModel7StoreContainer" CdmEntityContainer="SachConnection">
+          <EntitySetMapping Name="SACHes">
+            <EntityTypeMapping TypeName="QLNSModel7.SACH">
+              <MappingFragment StoreEntitySet="SACH">
+                <ScalarProperty Name="MASACH" ColumnName="MASACH" />
+                <ScalarProperty Name="TENSACH" ColumnName="TENSACH" />
+                <ScalarProperty Name="MATG" ColumnName="MATG" />
+                <ScalarProperty Name="TENLINHVUC" ColumnName="TENLINHVUC" />
+                <ScalarProperty Name="TENLOAISACH" ColumnName="TENLOAISACH" />
+                <ScalarProperty Name="GIAMUA" ColumnName="GIAMUA" />
+                <ScalarProperty Name="GIABIA" ColumnName="GIABIA" />
+                <ScalarProperty Name="LANTAIBAN" ColumnName="LANTAIBAN" />
+                <ScalarProperty Name="TENNHAXUATBAN" ColumnName="TENNHAXUATBAN" />
+                <ScalarProperty Name="NAMXUATBAN" ColumnName="NAMXUATBAN" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

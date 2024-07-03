@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLNSModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NHAXUATBAN">
+    <Key>
+      <PropertyRef Name="TENNHAXUATBAN" />
+    </Key>
+    <Property Name="TENNHAXUATBAN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="NhaXuatBanConnection" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NHAXUATBANs" EntityType="Self.NHAXUATBAN" />
+  </EntityContainer>
+</Schema>

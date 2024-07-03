@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLNSModel2.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NHANVIEN">
+    <Key>
+      <PropertyRef Name="MANHANVIEN" />
+    </Key>
+    <Property Name="MANHANVIEN" Type="char" MaxLength="7" Nullable="false" />
+    <Property Name="TENNHANVIEN" Type="nvarchar" MaxLength="100" />
+    <Property Name="GIOITINH" Type="bit" />
+    <Property Name="NGAYSINH" Type="date" />
+    <Property Name="NGAYVAOLAM" Type="date" />
+    <Property Name="DIACHI" Type="nvarchar" MaxLength="200" />
+    <Property Name="SDT" Type="nvarchar" MaxLength="12" />
+  </EntityType>
+  <EntityContainer Name="QLNSModel2StoreContainer">
+    <EntitySet Name="NHANVIEN" EntityType="Self.NHANVIEN" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

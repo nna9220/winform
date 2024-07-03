@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLNSModel10StoreContainer" CdmEntityContainer="CTDHConnection">
+    <EntitySetMapping Name="CHITIETHOADON1">
+      <EntityTypeMapping TypeName="QLNSModel10.CHITIETHOADON1">
+        <MappingFragment StoreEntitySet="CHITIETHOADON1">
+          <ScalarProperty Name="MACHITIET" ColumnName="MACHITIET" />
+          <ScalarProperty Name="MAHOADON" ColumnName="MAHOADON" />
+          <ScalarProperty Name="MASACH" ColumnName="MASACH" />
+          <ScalarProperty Name="SOLUONG" ColumnName="SOLUONG" />
+          <ScalarProperty Name="GIATIEN" ColumnName="GIATIEN" />
+          <ScalarProperty Name="THANHTIEN" ColumnName="THANHTIEN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

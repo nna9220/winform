@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLNSModel3.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="HOADON">
+    <Key>
+      <PropertyRef Name="MAHOADON" />
+    </Key>
+    <Property Name="MAHOADON" Type="char" MaxLength="7" Nullable="false" />
+    <Property Name="TENKHACHHANG" Type="nvarchar" MaxLength="50" />
+    <Property Name="NGAYLAP" Type="datetime" />
+    <Property Name="TONGTIEN" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityContainer Name="QLNSModel3StoreContainer">
+    <EntitySet Name="HOADON" EntityType="Self.HOADON" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

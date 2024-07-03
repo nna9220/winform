@@ -1,0 +1,30 @@
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\BusinessLogicLayer.dll
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\BusinessLogicLayer.pdb
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\EntityFramework.dll
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\EntityFramework.xml
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\BusinessLogicLayer.dll.config
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\BusinessLogicLayer.dll
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\BusinessLogicLayer.pdb
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\BusinessLogicLayer.dll.config
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

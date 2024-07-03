@@ -1,0 +1,73 @@
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\CUOIKY_LTWIN.exe.config
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\CUOIKY_LTWIN.exe
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\CUOIKY_LTWIN.pdb
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\BusinessLogicLayer.dll
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\DataAccessLayer.dll
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\EntityFramework.dll
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\BusinessLogicLayer.pdb
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\BusinessLogicLayer.dll.config
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\DataAccessLayer.pdb
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\DataAccessLayer.dll.config
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\EntityFramework.xml
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.Properties.Resources.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.csproj.GenerateResource.cache
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.csproj.CoreCompileInputs.cache
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.csproj.CopyComplete
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.exe
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.pdb
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\EntityFramework.SqlServer.dll
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\EntityFramework.SqlServer.xml
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.DangNhap.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.formNhaXuatBan.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormNhanVien.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormThemNhanVien.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormSuaNhanVien.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormHoaDon.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.formLinhVuc.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormTheLoai.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormSach.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormThemSach.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormTacGia.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormSuaSach.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormKho.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormChiTietHoaDon.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.ManHinhChinh.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.csproj.AssemblyReference.cache
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\CUOIKY_LTWIN.exe.config
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\CUOIKY_LTWIN.exe
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\CUOIKY_LTWIN.pdb
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\BusinessLogicLayer.dll
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\DataAccessLayer.dll
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\EntityFramework.dll
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\EntityFramework.SqlServer.dll
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\BusinessLogicLayer.pdb
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\BusinessLogicLayer.dll.config
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\DataAccessLayer.pdb
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\DataAccessLayer.dll.config
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\EntityFramework.xml
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\bin\Debug\EntityFramework.SqlServer.xml
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.csproj.AssemblyReference.cache
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.csproj.SuggestedBindingRedirects.cache
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.DangNhap.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormChiTietHoaDon.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormHoaDon.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormKho.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.formLinhVuc.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormNhanVien.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormSach.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormSuaNhanVien.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormSuaSach.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormTheLoai.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormThemNhanVien.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormThemSach.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.formNhaXuatBan.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.ManHinhChinh.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.Properties.Resources.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.FormTacGia.resources
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.csproj.GenerateResource.cache
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.csproj.CoreCompileInputs.cache
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.csproj.CopyComplete
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.exe
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.pdb
+D:\LapTrinhTrenWindows\cuoiky\QLNS\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.DangKy.resources
+F:\Lập Trình Trên Windown\CUOIKY_LTWIN\CUOIKY_LTWIN\obj\Debug\CUOIKY_LTWIN.DangKy.resources
